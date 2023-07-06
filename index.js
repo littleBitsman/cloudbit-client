@@ -6,6 +6,6 @@ const SERVER_PORT = 3000 // Change this to the port on the server
 
 // DO NOT MODIFY ANYTHING BELOW THIS LINE \\
 const ws = require('ws')
-const readline = require('readline')
-const crypto = require('crypto')
+const readline = require('node:readline')
+const crypto = require('node:crypto')
 
